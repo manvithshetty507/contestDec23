@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.app {
+  height: 100vh;
+  width: 100%;
+  background-color: #F8FAFC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login__container {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 45%;
+  border: 2px solid #667799;
+  border-radius: 2px;
+  padding: 25px;
+  background-color: #FFFFFF;
+}
+
+.login__welcome {
+  margin-bottom: 5px
+}
+
+.login__header {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: rgba(7, 1, 1, 0.75);
+}
+
+.login__forgot {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.input__box {
+  display: flex;
+  flex-direction: column;
+}
+
+.input__box label {
+  margin-bottom: 5px;
+}
+
+.input__box input {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.input__box > button {
+  background-color: #524AEF;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.input__box > button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.signup__container {
+  margin-top: 20px;
+}
+
+a{
+  text-decoration: none;
+}

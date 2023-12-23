@@ -1,0 +1,39 @@
+/* Profile.css */
+
+.profile__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+  }
+  
+  .profile {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    min-width: 250px;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .profile h1 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .profile p {
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  /* Add more styles as needed */
+  
